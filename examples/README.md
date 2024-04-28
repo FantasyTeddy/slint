@@ -83,9 +83,9 @@ A clone of one demo from the [QSkinny framework](https://qskinny.github.io/).
 
 Also show how a way to dynamically load widgets with the interpreter from C++.
 
-| `.slint` Design | C++ Source | Online wasm Preview | Open in SlintPad |
-| --- | --- | --- | --- |
-| [`main.slint`](./iot-dashboard/ui/main.slint) | [`main.cpp`](./iot-dashboard/cpp/main.cpp)   | [Online preview](https://slint.dev/snapshots/master/editor/preview.html?load_url=https://raw.githubusercontent.com/slint-ui/slint/master/examples/iot-dashboard/ui/main.slint) | [Preview in Online Code Editor](https://slint.dev/snapshots/master/editor?load_url=https://raw.githubusercontent.com/slint-ui/slint/master/examples/iot-dashboard/ui/main.slint) |
+| `.slint` Design | Rust Source | C++ Source | Online wasm Preview | Open in SlintPad |
+| --- | --- | --- | --- | --- |
+| [`main.slint`](./iot-dashboard/ui/main.slint) | [`main.rs`](./iot-dashboard/rust/main.rs) | [`main.cpp`](./iot-dashboard/cpp/main.cpp) | [Online preview](https://slint.dev/snapshots/master/editor/preview.html?load_url=https://raw.githubusercontent.com/slint-ui/slint/master/examples/iot-dashboard/ui/main.slint) | [Preview in Online Code Editor](https://slint.dev/snapshots/master/editor?load_url=https://raw.githubusercontent.com/slint-ui/slint/master/examples/iot-dashboard/ui/main.slint) |
 
 ![Screenshot of the IOT Dashboard](https://slint.dev/resources/iot-dashboard_screenshot.png "IOT Dashboard")
 
