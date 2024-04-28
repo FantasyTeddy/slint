@@ -90,7 +90,7 @@ def test_property_access():
         PyImage.load_from_path("non-existent.png")
 
     instance.set_property("imageprop", PyImage.load_from_path(os.path.join(
-        os.path.dirname(__file__), "../../../examples/iot-dashboard/images/humidity.png")))
+        os.path.dirname(__file__), "../../../examples/iot-dashboard/ui/images/humidity.png")))
     imageval = instance.get_property("imageprop")
     assert imageval.size == (36, 36)
     assert "humidity.png" in imageval.path

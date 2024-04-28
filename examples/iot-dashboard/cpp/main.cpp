@@ -92,7 +92,7 @@ int main()
     builder.add_grid_widget(std::make_shared<PlaceholderWidget>("LightIntensity"), { 2, 2 });
 
     slint::interpreter::ComponentCompiler compiler;
-    compiler.set_include_paths({ SOURCE_DIR });
+    compiler.set_include_paths({ SOURCE_DIR "/../ui" });
     auto dashboard = builder.build(compiler);
 
     if (!dashboard) {

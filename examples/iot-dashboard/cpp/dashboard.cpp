@@ -187,7 +187,7 @@ export component MainWindow inherits Window {{
 )slint",
             widget_imports, top_bar, main_grid, exposed_properties, main_content_properties);
 
-    auto definition = compiler.build_from_source(source_code, SOURCE_DIR);
+    auto definition = compiler.build_from_source(source_code, SOURCE_DIR "/../ui");
 
     for (auto diagnostic : compiler.diagnostics()) {
         std::cerr << (diagnostic.level == slint::interpreter::DiagnosticLevel::Warning ? "warning: "

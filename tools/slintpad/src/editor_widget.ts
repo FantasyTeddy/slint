@@ -786,7 +786,7 @@ export class EditorWidget extends Widget {
                 "Energy Monitor",
             ],
             ["examples/todo/ui/todo.slint", "Todo Demo"],
-            ["examples/iot-dashboard/main.slint", "IOT Dashboard"],
+            ["examples/iot-dashboard/ui/main.slint", "IOT Dashboard"],
         ];
     }
 

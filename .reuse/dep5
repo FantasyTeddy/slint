@@ -40,7 +40,7 @@ Files: examples/printerdemo/ui/images/*.svg examples/printerdemo_old/ui/images/*
 Copyright: CoreyGinnivan <https://github.com/CoreyGinnivan/system-uicons>
 License: Unlicense
 
-Files: examples/iot-dashboard/images/*.svg examples/iot-dashboard/images/*.png
+Files: examples/iot-dashboard/ui/images/*.svg examples/iot-dashboard/ui/images/*.png
 Copyright: Uwe Rathmann <https://github.com/uwerat/qskinny/tree/master/examples/iotdashboard/images>
 License: LicenseRef-qskinny
 

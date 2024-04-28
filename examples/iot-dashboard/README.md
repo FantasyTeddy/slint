@@ -12,7 +12,7 @@ the C++ QSkinny code to self-contained .slint.
 
 ## Online preview:
 
-https://slint.dev/snapshots/master/editor/preview.html?load_url=https://raw.githubusercontent.com/slint-ui/slint/master/examples/iot-dashboard/main.slint
+https://slint.dev/snapshots/master/editor/preview.html?load_url=https://raw.githubusercontent.com/slint-ui/slint/master/examples/iot-dashboard/ui/main.slint
 
 ## Screenshot
 
